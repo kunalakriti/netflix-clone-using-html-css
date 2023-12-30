@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+*{
+    padding: 0;margin: 0;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+#navbar{
+    background-image: url('assets/images/bg.jpg');
+    height: 90vh;   
+}
+.box{
+    background-color: black;
+    opacity: 0.6;
+    height: 90vh;
+    
+}.navbar{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 34px;
+    
+}
+.navbar img{
+    width: 134px;
+    height: 41px;
+}
+.lang select{
+    background-color: black;
+    color: #fff;
+    width: 90px;
+    height: 34px;
+    padding: 8px;border-radius: 10px;
+
+/* }.imgicon{
+
+} */}
+.lang select > option{
+    background-color: #fff;
+    color: black;
+}
+.signinbtn{
+    background-color: red;
+    color: #fff;
+    font-weight: 700;
+    width: 90px;
+    height: 34px;
+    padding: 9px;
+    margin-left: 23px;
+    border-radius: 10px;}
+.heading{
+    text-align: center;
+    font-size: 1.7em;
+    position: absolute;
+    top: 150px;
+    
+
+}.headtext{
+    margin: 18px 24px auto;
+    line-height: 50px;
+}
+.para{
+    margin:  34px 12px;
+}
+
+.textbox{
+    width: 25vw;
+    height: 60px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding-left: 12px;
+    background-color: black;
+    font-weight: 700;
+    font-size: 24px;
+}
+.getstarted{
+    background-color: red;
+    color: #fff;
+    font-weight: 700;
+    height: 60px;
+    width: 135px;   
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 34px;
+}
+.horizontal{
+    background-color: gray;
+    width: 100%;
+    height: 6px;
+}
+/* //section starts */
+section .container{
+    display: flex;
+    height: 70vh;
+    width: auto;
+    /* border: 2px solid white; */
+    margin: 35px auto;
+    
+}
+.container .box1{
+    
+    
+    /* top: 50%; */
+    
+    width: 50%;
+    /* border: 2px solid yellow; */
+    /* margin: 45px 120px 2px 120px; */
+}
+.section1-head{
+    
+    text-align: left;
+    margin: 190px 120px 2px 120px;
+    font-size: 2em;
+}.section1-para{
+    text-align: left;
+    margin: 0 120px;
+    font-size: 1.6em;
+    
+}
+.container .box2{
+    width: 50%;
+    /* border: 2px solid yellow; */
+}.tv{
+    position: relative;
+}.videotv{
+    position: absolute;
+    top: 97px;
+    left: 77px;
+    z-index: -1;
+}
+.sec-img{
+    height: 60vh;
+    margin-left: 23px;
+}
+.sec-video{
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    top: 46px;
+    left: 114px;
+    z-index: -1;
+}.endhead{
+    text-align: center;
+    font-size: 2.8em;
+    margin-top: 34px;
+}.end-line{
+    text-align: center;
+    margin-top: 65px;
+    font-size: medium;
+}.end-btn{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 80px;
+    margin: 34px 0;
+}.footer{
+    /* height: 70vh; */
+    margin: 45px 90px 10px 90px;
+}
+table{
+    width: 100%;
+    margin-top: 34px;
+}
+table td{
+    padding: 10px;
+    text-decoration: underline;
+}
